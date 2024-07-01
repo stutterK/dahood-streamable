@@ -1,4 +1,4 @@
-local Aiming = loadstring(game:HttpGet("https://github.com/stutterK/dahood-streamable/blob/main/streamabel%20take%201"))()
+local Aiming = loadstring(game:HttpGet("https://raw.githubusercontent.com/stutterK/dahood-streamable/main/streamabel%20take%201?token=GHSAT0AAAAAACUI4JDNIOZK2WMAB2VHRL2IZUB7ALA"))()
 Aiming.TeamCheck(false)
 
 local Workspace = game:GetService("Workspace")
