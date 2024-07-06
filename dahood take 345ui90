@@ -36,7 +36,6 @@ local tableinsert = table.insert
 -- // Silent Aim Vars
 getgenv().Aiming = {
     Enabled = true,
-    SilentAimKeybind = Enum.KeyCode.G,
 
     ShowFOV = true,
     FOV = 30,
