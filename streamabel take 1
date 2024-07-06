@@ -33,10 +33,11 @@ local FindFirstChild = Instancenew("Part").FindFirstChild
 local tableremove = table.remove
 local tableinsert = table.insert
 
--- // Silent Aim Vars
+    -- // Silent Aim Vars
 getgenv().Aiming = {
-  Enum.KeyCode = F
-  Enabled = true,
+        ["Enabled"] = (true), -- // Enable / Disable Silent Aim
+        ["UseSilentKeyBind"] = (true), -- // Use The KeyBind To Enable / Disable The Silent Aim
+        ["KeyBind"] = ("B"), -- // The Key That Enables / Disables The Silent Aim
 
     ShowFOV = false,
     FOV = 30,
